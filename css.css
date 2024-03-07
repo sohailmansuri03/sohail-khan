@@ -1,0 +1,52 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    margin:15px 20px;
+    margin-bottom: 1px;
+    
+}
+h1{
+    font-size: 20pt;
+    margin-top: 5px;
+}
+#box input{
+    width:450px;
+    height:40px ;
+    border-radius: 40px;
+    border-color: rgba(0, 0, 0, 0.425);
+
+}
+
+.cen{
+    display: flex;
+    justify-content:start;
+    padding-top: 0px;
+}
+.line{
+    width: 200px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+h2{
+    font-size: 15pt;
+}
+aside{
+    overflow-y: auto;
+    height: 80vh;
+    width: 250px;
+}
+body{
+    height: 200vh;
+}
+#pos{
+    height: 40px;
+    width: 50px;
+    border-radius: 40px;
+    border-color: rgba(0, 0, 0, 0.425); 
+}
+.active{
+    border-radius: 30px;
+    border-color: white;
+    background-color: rgba(235, 225, 225, 0.842);
+    height: 30px;
+}
